@@ -1,8 +1,8 @@
-.footer-link {
+.social {
     margin-left: 70px;
 }
 
-.footer-link p {
+.social__txt {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -12,7 +12,7 @@
     margin-bottom: 20px;
 }
 
-.footer-social-link {
+.social__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@
 }
 
 
-.footer-social.list {
+.social__list {
     display: flex;
     justify-content: center;
     gap: 10px;

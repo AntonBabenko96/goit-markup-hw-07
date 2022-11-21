@@ -5,23 +5,23 @@
     width: 100%;
 }
 
-.foot-info {
+.footer__container {
     display: flex;
     align-items: baseline;
 
 }
 
-.logo-footer {
+.footer__logo {
     color: var(--accent-color);
     font-family: 'Raleway';
     text-decoration: none;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-}
 
-.logo-footer span {
-    color: #FFFFFF;
-    font-family: 'Raleway';
-    text-decoration: none;
+    &--foottxt {
+        color: #FFFFFF;
+        font-family: 'Raleway';
+        text-decoration: none;
+    }
 }

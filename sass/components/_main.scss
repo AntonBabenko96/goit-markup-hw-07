@@ -42,19 +42,19 @@
     border-radius: 4px;
 
 }
-.main__icon-antenna::before {
+.main__icon--antenna::before {
     background-image: url(../images/icons/antenna.svg);
 }
 
-.main__icon-clock::before {
+.main__icon--clock::before {
     background-image: url(../images/icons/clock.svg);
 }
 
-.main__icon-diagram::before {
+.main__icon--diagram::before {
     background-image: url(../images/icons/diagram.svg);
 }
 
-.main__icon-astronaut::before {
+.main__icon--astronaut::before {
     background-image: url(../images/icons/astronaut.svg);
 }
 

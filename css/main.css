@@ -134,7 +134,7 @@ button {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-.logo--span {
+.logo--txt {
   color: #000;
 }
 
@@ -297,19 +297,19 @@ button {
   border-radius: 4px;
 }
 
-.main__icon-antenna::before {
+.main__icon--antenna::before {
   background-image: url(../images/icons/antenna.svg);
 }
 
-.main__icon-clock::before {
+.main__icon--clock::before {
   background-image: url(../images/icons/clock.svg);
 }
 
-.main__icon-diagram::before {
+.main__icon--diagram::before {
   background-image: url(../images/icons/diagram.svg);
 }
 
-.main__icon-astronaut::before {
+.main__icon--astronaut::before {
   background-image: url(../images/icons/astronaut.svg);
 }
 
@@ -515,7 +515,7 @@ button {
   width: 100%;
 }
 
-.foot-info {
+.footer__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -524,7 +524,7 @@ button {
           align-items: baseline;
 }
 
-.logo-footer {
+.footer__logo {
   color: var(--accent-color);
   font-family: "Raleway";
   text-decoration: none;
@@ -532,14 +532,13 @@ button {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-
-.logo-footer span {
+.footer__logo--foottxt {
   color: #FFFFFF;
   font-family: "Raleway";
   text-decoration: none;
 }
 
-.address {
+.footer__address {
   font-family: "Roboto";
   font-style: normal;
   color: #fff;
@@ -550,7 +549,7 @@ button {
   width: 231px;
 }
 
-.address a {
+.address__link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   display: block;
@@ -562,15 +561,15 @@ button {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.address a:hover, .address a:focus {
+.address__link:hover, .address__link:focus {
   color: var(--accent-color);
 }
 
-.footer-link {
+.social {
   margin-left: 70px;
 }
 
-.footer-link p {
+.social__txt {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -580,7 +579,7 @@ button {
   margin-bottom: 20px;
 }
 
-.footer-social-link {
+.social__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -602,12 +601,12 @@ button {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-social-link:hover, .footer-social-link:focus {
+.social__link:hover, .social__link:focus {
   color: #fff;
   background-color: var(--accent-color);
 }
 
-.footer-social.list {
+.social__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
